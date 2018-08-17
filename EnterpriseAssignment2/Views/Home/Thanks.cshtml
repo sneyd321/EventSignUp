@@ -1,0 +1,39 @@
+﻿@model EnterpriseAssignment2.Models.CompetitionInvite
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Thanks</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        
+    </head>
+    <body class="text-center">
+        <label>Full Name: Ryan Sneyd </label>
+        <label>Id: 99144158 </label>
+        <label>Assignment Number: 2 </label>
+        <label>Instructor Name: Syed Tanbeer</label><br />
+        
+
+       
+        <p>
+        <h1>Thank you, @Model.Name!</h1>
+        @if (Model.WillAttend == true)
+        {
+            @:Fantastic! It is now time to make history!
+            <p>You were enrolled in the @Model.Interest track of the comeptition</p>
+
+        }
+        else
+        {
+                @:Sorry to hear that you can't make it, but thanks for letting us know.
+        }
+        </p>
+        <p>Click <a class="nav-link" asp-action="ListResponses">here</a> to see who is coming.</p>
+        
+    </body>
+</html>

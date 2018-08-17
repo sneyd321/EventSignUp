@@ -1,0 +1,44 @@
+﻿@model IEnumerable<EnterpriseAssignment2.Models.CompetitionInvite>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Responses</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="panel-body">
+        <h2>Here is the list of people attending the event</h2>
+        <table class="table table-sm table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address</th>                   
+                    <th>Social Network</th>
+                    <th>Technical Interest</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (EnterpriseAssignment2.Models.CompetitionInvite r in Model)
+                {
+                    <tr>
+                        <td>@r.Name</td>
+                        <td>@r.Email</td>
+                        <td>@r.Phone</td>
+                        <td>@r.Address</td>
+                        <td>@r.SocialNetworkInterest</td>
+                        <td>@r.Interest</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

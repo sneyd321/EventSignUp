@@ -1,0 +1,73 @@
+﻿@model EnterpriseAssignment2.Models.CompetitionInvite
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RsvpForm</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/styles.css"/>
+    
+</head>
+<body>
+    <label>Full Name: Ryan Sneyd </label>
+    <label>Id: 99144158 </label>
+    <label>Assignment Number: 2 </label>
+    <label>Instructor Name: Syed Tanbeer</label>
+    <div class="panel panel-success">
+        <div class="panel-heading text-center"><h4>RSVP</h4></div>
+        <div class="panel-body">
+            <form class="p-a-1" asp-action="RsvpForm" method="post">
+                <div asp-validation-summary="All"></div>
+                <div class="form-group">
+                    <label asp-for="Name">Your Name:</label>
+                    <input class="form-control" asp-for="Name" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email">Your Email:</label>
+                    <input class="form-control" asp-for="Email" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone">Your Phone:</label>
+                    <input class="form-control" asp-for="Phone" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address">Your Address:</label>
+                    <input class="form-control" asp-for="Address" />
+                </div>
+                <div class="form-group">
+                    <label>Social Network Interest</label>
+                    <select class="form-control" asp-for="SocialNetworkInterest">
+                        <option value="">- Select an Option -</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="LinkedIn">LinkedIn</option>
+                        <option value="YouTube">YouTube</option>
+                        <option value="Instagram">Instagram</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Technical Interest</label>
+                    <select class="form-control" asp-for="Interest">
+                        <option value="0">- Select an Option -</option>
+                        <option value="1">Internet of Things</option>
+                        <option value="2">Motion Sensor Technology</option>
+                        <option value="3">Data Analytics Tools</option>
+                        <option value="4">Computer Programming</option>
+                    </select>
+                </div>
+                
+                <div class="text-center">
+                    <button class="btn btn-success" name="success" value="true" type="submit">Accept Invitation</button>
+                    <button class="btn btn-danger" name="fail" value="false" type="submit">Send Regrets</button>
+                </div>              
+            </form>
+        </div>
+    </div>   
+</body>
+</html>

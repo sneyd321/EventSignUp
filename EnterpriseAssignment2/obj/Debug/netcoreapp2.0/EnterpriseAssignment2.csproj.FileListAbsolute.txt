@@ -1,0 +1,11 @@
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\EnterpriseAssignment2\bin\Debug\netcoreapp2.0\EnterpriseAssignment2.deps.json
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\EnterpriseAssignment2\bin\Debug\netcoreapp2.0\EnterpriseAssignment2.runtimeconfig.json
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\EnterpriseAssignment2\bin\Debug\netcoreapp2.0\EnterpriseAssignment2.runtimeconfig.dev.json
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\EnterpriseAssignment2\bin\Debug\netcoreapp2.0\EnterpriseAssignment2.dll
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\EnterpriseAssignment2\bin\Debug\netcoreapp2.0\EnterpriseAssignment2.pdb
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\EnterpriseAssignment2\obj\Debug\netcoreapp2.0\EnterpriseAssignment2.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\EnterpriseAssignment2\obj\Debug\netcoreapp2.0\EnterpriseAssignment2.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\EnterpriseAssignment2\obj\Debug\netcoreapp2.0\EnterpriseAssignment2.AssemblyInfoInputs.cache
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\EnterpriseAssignment2\obj\Debug\netcoreapp2.0\EnterpriseAssignment2.AssemblyInfo.cs
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\EnterpriseAssignment2\obj\Debug\netcoreapp2.0\EnterpriseAssignment2.dll
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\EnterpriseAssignment2\obj\Debug\netcoreapp2.0\EnterpriseAssignment2.pdb

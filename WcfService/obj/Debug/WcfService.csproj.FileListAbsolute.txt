@@ -1,0 +1,2 @@
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Source\Repos\EnterpriseAssignment2\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
